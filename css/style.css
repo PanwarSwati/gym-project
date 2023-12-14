@@ -1,0 +1,87 @@
+.left{
+    display: inline-block;
+   
+    top:0 px;
+    position: absolute;
+    width: 10%;   
+}
+
+.left img{
+    width: 100px;
+    height: 80px;
+}
+
+.mid{
+    display:block;
+    width:70%;
+    margin: 20px auto;
+    top:22px;
+   
+}
+.right{
+    display: inline-block;
+    
+    right: 2px;
+    top: 34px;
+    position :absolute;
+    width: 10%;
+
+}
+.btn{
+    margin: 0px 10px;
+   background-color:rgb(121, 86, 86);
+    color:white;
+    padding: 4px 14px;
+  
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.btn:hover{
+    background-color: brown;
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline ;
+    color:brown;
+
+}
+.container{
+    border:2px solid white;
+    margin: 100px 80px;
+    padding: 80px ;
+    width: 28%;
+    border-radius:10px;
+    height: 40%;
+    color:white;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 320px;
+    padding: 2px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius:12px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 320px;
+    margin: 20px auto; 
+}
